@@ -1,0 +1,149 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Readings - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15B.tmp" with contents
+[
+/nologo /Zp1 /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Readings.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Readings\DownLoadListView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15C.tmp" with contents
+[
+shlwapi.lib ws2_32.lib winmm.lib setupapi.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Readings.pdb" /map:"Debug/Readings.map" /debug /machine:I386 /out:"C:\hanlin\Readings.exe" /pdbtype:sept 
+.\Debug\AddNetBookDlg.obj
+.\Debug\AddUniversity.obj
+.\Debug\AdvancedBitmapButton.obj
+.\Debug\AgreeMail.obj
+.\Debug\AGREEMAILDIALOG.obj
+.\Debug\AutoFont.obj
+.\Debug\AutoLoginDlg.obj
+.\Debug\BackupDialog.obj
+.\Debug\base64.obj
+.\Debug\ChargeMail.obj
+.\Debug\CHARGETMAILDIALOG.obj
+.\Debug\ClientListenerThread.obj
+.\Debug\CLientThread.obj
+.\Debug\CommLog.obj
+.\Debug\CommLogDlg.obj
+.\Debug\CommView.obj
+.\Debug\ConfigDlg.obj
+.\Debug\CreateReGroup.obj
+.\Debug\CreateRGDlg.obj
+.\Debug\DataListCtrl.obj
+.\Debug\Decrypt.obj
+.\Debug\DialogComments.obj
+.\Debug\DialogMail.obj
+.\Debug\DialogSMS.obj
+.\Debug\DigChinaBook.obj
+.\Debug\DigHotkey.obj
+.\Debug\DlgAddStudyBuilding.obj
+.\Debug\DownloadCenterTreeView.obj
+.\Debug\DownLoadListView.obj
+.\Debug\Drawers.obj
+.\Debug\DrawerView.obj
+.\Debug\EMailADO.obj
+.\Debug\FavorPg.obj
+.\Debug\FileCollect.obj
+.\Debug\FileFindEx.obj
+.\Debug\ForJmail.obj
+.\Debug\FormatWaterMark.obj
+.\Debug\GetUserInfo.obj
+.\Debug\GFXGROUPEDIT.OBJ
+.\Debug\GFXOUTBARCTRL.OBJ
+.\Debug\GFXPOPUPMENU.OBJ
+.\Debug\GuidTreeView.obj
+.\Debug\HotKeyListView.obj
+.\Debug\HotKeyTree.obj
+.\Debug\HotKeyView.obj
+.\Debug\HttpDownLoadDlg.obj
+.\Debug\HttpSocket.obj
+.\Debug\HttpUtl.obj
+.\Debug\idea.obj
+.\Debug\InputDlg.obj
+.\Debug\MailHistory.obj
+.\Debug\MainBar.obj
+.\Debug\MainFrm.obj
+.\Debug\MainListView.obj
+.\Debug\ManBooks.obj
+.\Debug\MidRowSplitWnd.obj
+.\Debug\NameTabCtrl.obj
+.\Debug\NormalPg.obj
+.\Debug\OrderCenterView.obj
+.\Debug\ParseTxtFile.obj
+.\Debug\ParseWolFile.obj
+.\Debug\PathDialog.obj
+.\Debug\PersonInfo.obj
+.\Debug\PubInfo.obj
+.\Debug\Push.obj
+.\Debug\PushAdv.obj
+.\Debug\PushPg.obj
+.\Debug\ReadControlBar.obj
+.\Debug\ReadDlg.obj
+.\Debug\Readings.obj
+.\Debug\ReadingsHeart.obj
+.\Debug\ReadingsView.obj
+.\Debug\ReadOnLine.obj
+.\Debug\RECVMAILDIALOG.obj
+.\Debug\RefuseMail.obj
+.\Debug\REFUSETMAILDIALOG.obj
+.\Debug\RegsterDialog.obj
+.\Debug\RequestMail.obj
+.\Debug\REQUESTMAILDIALOG.obj
+.\Debug\ResourceClassify.obj
+.\Debug\RowSplitWnd.obj
+.\Debug\SelPathDlg.obj
+.\Debug\ServerPg.obj
+.\Debug\SetRGroupKeyWords.obj
+.\Debug\SharePg.obj
+.\Debug\ShowDialog.obj
+.\Debug\ShowView.obj
+.\Debug\sms.obj
+.\Debug\sortclass.obj
+.\Debug\SplitWnd.obj
+.\Debug\StdAfx.obj
+.\Debug\SYNDialog.obj
+.\Debug\SynListDlg.obj
+.\Debug\TipsDialog.obj
+.\Debug\Transcoding.obj
+.\Debug\TreeCtrlEx.obj
+.\Debug\UDiskAuth.obj
+.\Debug\UploadShareFileList.obj
+.\Debug\UpLoadTorrent.obj
+.\Debug\UserCommDlg.obj
+.\Debug\UserInfoDlg.obj
+.\Debug\UserListCtrl.obj
+.\Debug\WaterMaker.obj
+.\Debug\WBButton.obj
+.\Debug\webbrowser2.obj
+.\Debug\WM_Show_Dialog.obj
+.\Debug\Readings.res
+.\lib\image\zlib.lib
+.\lib\image\Jpeg.lib
+.\lib\image\ParseFile.lib
+.\lib\image\png.lib
+.\lib\image\Tiff.lib
+.\lib\image\cximage.lib
+.\lib\udt\UDTLIB.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15C.tmp"
+<h3>Output Window</h3>
+Compiling...
+DownLoadListView.cpp
+C:\Readings\DownLoadListView.cpp(322) : warning C4101: 'e' : unreferenced local variable
+C:\Readings\DownLoadListView.cpp(1319) : warning C4101: 'e' : unreferenced local variable
+C:\Readings\DownLoadListView.cpp(1352) : warning C4101: 'e' : unreferenced local variable
+C:\Readings\DownLoadListView.cpp(1966) : warning C4715: 'CDownLoadListView::UpLoadOneTorrent' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+Readings.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

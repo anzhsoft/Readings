@@ -1,0 +1,1658 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Readings.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "icon\\WolfND.ico"
+IDR_READINTYPE          ICON                    "res\\ReadingsDoc.ico"
+IDI_ICON_EMPTY          ICON                    "icon\\icon1.ico"
+IDI_ICON_MSG            ICON                    "icon\\msg.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_BITMAP_BGREGST      BITMAP                  "pic\\regist.bmp"
+IDB_BITMAP_LOGIN        BITMAP                  "pic\\用户登录.bmp"
+IDB_BITMAP_GUEST        BITMAP                  "pic\\逛逛.bmp"
+IDB_BITMAP_REG          BITMAP                  "pic\\用户注册.bmp"
+IDB_BITMAP_GETPWD       BITMAP                  "pic\\找回密码.BMP"
+IDB_MAINBAR_REFRESH     BITMAP                  "pic\\MAINBAR\\refresh.bmp"
+IDB_MAINBAR_REFRESH_CHK BITMAP                  "pic\\MAINBAR\\refreshCheck.bmp"
+IDB_MAINBAR_REFRESH_SEL BITMAP                  "pic\\MAINBAR\\refreshSel.bmp"
+IDB_MAINBAR_REFRESH_DIS BITMAP                  "pic\\MAINBAR\\refreshDis.bmp"
+IDB_MAINBAR_SYN         BITMAP                  "pic\\MAINBAR\\syn.bmp"
+IDB_MAINBAR_SYN_CHK     BITMAP                  "pic\\MAINBAR\\synCheck.bmp"
+IDB_MAINBAR_SYN_DIS     BITMAP                  "pic\\MAINBAR\\synDis.bmp"
+IDB_MAINBAR_SYN_SEL     BITMAP                  "pic\\MAINBAR\\synSel.bmp"
+IDB_MAINBAR_ORDER       BITMAP                  "pic\\MAINBAR\\order.bmp"
+IDB_MAINBAR_ORDER_CHK   BITMAP                  "pic\\MAINBAR\\orderCheck.bmp"
+IDB_MAINBAR_ORDER_SEL   BITMAP                  "pic\\MAINBAR\\orderSel.bmp"
+IDB_MAINBAR_ORDER_DIS   BITMAP                  "pic\\MAINBAR\\orderDis.bmp"
+IDB_MAINBAR_RESEARCH_STR BITMAP                  "pic\\MAINBAR\\researchter.bmp"
+IDB_MAINBAR_SEARCH_CHK  BITMAP                  "pic\\MAINBAR\\searchCheck.bmp"
+IDB_MAINBAR_SEARCH_SEL  BITMAP                  "pic\\MAINBAR\\searchSel.bmp"
+IDB_MAINBAR_SEARCH_DIS  BITMAP                  "pic\\MAINBAR\\searchDis.bmp"
+IDB_MAINBAR_SEARCH      BITMAP                  "pic\\MAINBAR\\search.bmp"
+IDB_MAINBAR_HISTORY     BITMAP                  "pic\\MAINBAR\\stroy.bmp"
+IDB_MAINBAR_HISTORY_CHK BITMAP                  "pic\\MAINBAR\\stroyCheck.bmp"
+IDB_MAINBAR_HISTORY_DIS BITMAP                  "pic\\MAINBAR\\stroyDis.bmp"
+IDB_MAINBAR_HISTORY_SEL BITMAP                  "pic\\MAINBAR\\stroySel.bmp"
+IDB_MAINBAR_USERADV     BITMAP                  "pic\\MAINBAR\\ADVCOMM.bmp"
+IDB_MAINBAR_USERADV_DIS BITMAP                  "pic\\MAINBAR\\ADVDISABLE.bmp"
+IDB_MAINBAR_USERADV_SEL BITMAP                  "pic\\MAINBAR\\ADVFOCUS.bmp"
+IDB_MAINBAR_USERADV_CHK BITMAP                  "pic\\MAINBAR\\ADVSEL.bmp"
+IDB_MAINBAR_HELP_DIS    BITMAP                  "pic\\MAINBAR\\helpDis.bmp"
+IDB_MAINBAR_HELP_CHK    BITMAP                  "pic\\MAINBAR\\helpcheck.bmp"
+IDB_MAINBAR_HELP        BITMAP                  "pic\\MAINBAR\\help.bmp"
+IDB_MAINBAR_HELP_SEL    BITMAP                  "pic\\MAINBAR\\helpsel.bmp"
+IDB_IMGLIST_TREE        BITMAP                  "pic\\BMPLIST\\tree.bmp"
+IDB_SEARCHLIST_ICON     BITMAP                  "pic\\SEARCH\\img_searchlogo.bmp"
+IDB_SEARCHLIST_ICON_NAIL BITMAP                  "pic\\SEARCH\\img_td.bmp"
+IDB_SEARCHLIST_ICON_LOCAL BITMAP                  "pic\\SEARCH\\img_local.bmp"
+IDB_SEARCHLIST_ICON_VERYCD BITMAP                  "pic\\SEARCH\\img_verycd.bmp"
+IDB_SEARCHLIST_ICON_ISTATION BITMAP                  "pic\\SEARCH\\img_istation.bmp"
+IDB_SEARCHLIST_ICON_READMAN BITMAP                  "pic\\SEARCH\\img_readman.bmp"
+IDB_SEARCHLIST_ICON_PDFPAPER BITMAP                  "pic\\SEARCH\\img_pdfpaper.bmp"
+IDB_SEARCHLIST_ICON_ZCOM BITMAP                  "pic\\SEARCH\\img_zcom.bmp"
+IDB_SEARCHLIST_ICON_MOBILE BITMAP                  "pic\\SEARCH\\img_mobile.bmp"
+IDB_SEARCHLIST_ICON_EBOOK BITMAP                  "pic\\SEARCH\\img_ebook.bmp"
+IDB_SEARCHLIST_ICON_COMPUTER BITMAP                  "pic\\SEARCH\\img_computer.bmp"
+IDB_SEARCHLIST_ICON_SOURCE BITMAP                  "pic\\SEARCH\\img_type.bmp"
+IDB_BITMAP_BUTTON_ORDER BITMAP                  "pic\\BUTTON\\dy.bmp"
+IDB_BITMAP_BUTTON_ADDTOORDER BITMAP                  "pic\\BUTTON\\addtoorder.bmp"
+IDB_BITMAP_BUTTON_READ  BITMAP                  "pic\\BUTTON\\rd.bmp"
+IDB_BITMAP_BUTTON_SYN_CHK BITMAP                  "pic\\BUTTON\\syn_check.bmp"
+IDB_BITMAP_BUTTON_SYN_EMP BITMAP                  "pic\\BUTTON\\syn_empty.bmp"
+IDB_BITMAP_BUTTON_BROWSE BITMAP                  "pic\\BUTTON\\browse.bmp"
+IDB_BITMAP_BUTTON_DOWNLOAD BITMAP                  "pic\\BUTTON\\dl.bmp"
+IDB_BITMAP_BUTTON_MAKEWOLF BITMAP                  "pic\\BUTTON\\makewolf.bmp"
+IDB_FILEICON_3DSMALLBOOK BITMAP                  "pic\\ICON\\3dsmallbook.bmp"
+IDB_BITMAP_BUTTON_STOPSEARCH BITMAP                  "pic\\MAINBAR\\stopsearch.bmp"
+IDB_BITMAP_BUTTON_STOPSEARCH_CHK BITMAP                  "pic\\MAINBAR\\stopsearchchk.bmp"
+IDB_BITMAP_BUTTON_STOPSEARCH_DIS BITMAP                  "pic\\MAINBAR\\stopsearchdis.bmp"
+IDB_BITMAP_BUTTON_STOPSEARCH_SEL BITMAP                  "pic\\MAINBAR\\stopsearchsel.bmp"
+IDB_IMGLIST_DOWNLOAD    BITMAP                  "pic\\BMPLIST\\download.bmp"
+IDB_SEARCHLIST_ICON_SINABOOK BITMAP                  "pic\\SEARCH\\img_sina.bmp"
+IDB_BITMAP_BUTTON_TRYMAKEWOLF BITMAP                  "pic\\BUTTON\\trymakewolf.bmp"
+IDB_UP                  BITMAP                  "pic\\FRAME\\up.bmp"
+IDB_DOWN                BITMAP                  "pic\\FRAME\\down.bmp"
+IDB_LEFT                BITMAP                  "pic\\FRAME\\left.bmp"
+IDB_RIGHT               BITMAP                  "pic\\FRAME\\right.bmp"
+IDB_BITMAP_LOGO         BITMAP                  "pic\\Logo.bmp"
+IDB_CTLBAR_LEFT         BITMAP                  "pic\\ReadControlBar\\leftbtn.bmp"
+IDB_CTLBAR_RIGHT        BITMAP                  "pic\\ReadControlBar\\rightbtn.bmp"
+IDB_CTLBAR_MENU         BITMAP                  "pic\\ReadControlBar\\menuBtn.bmp"
+IDB_CTLBAR_ZOOM         BITMAP                  "pic\\ReadControlBar\\zoombtn.bmp"
+IDB_SEARCHLIST_ICON_SHARE BITMAP                  "pic\\SEARCH\\img_share.bmp"
+IDB_BITMAP_BUTTON_ORDER_CHK BITMAP                  "pic\\BUTTON\\dy_check.bmp"
+IDB_BITMAP_BUTTON_ORDER_EMP BITMAP                  "pic\\BUTTON\\dy_empty.bmp"
+IDB_TIPDLG_ALERT        BITMAP                  "pic\\TipDialog\\alert.bmp"
+IDB_TIPDLG_BUTTON       BITMAP                  "pic\\TipDialog\\btn.bmp"
+IDB_TIPDLG_MESSAGE      BITMAP                  "pic\\TipDialog\\msg.bmp"
+IDB_TIPDLG_QUESTION     BITMAP                  "pic\\TipDialog\\qst.bmp"
+IDB_TIPDLG_TIP          BITMAP                  "pic\\TipDialog\\tip.bmp"
+IDB_IMGLIST_FILE        BITMAP                  "pic\\BMPLIST\\filelist.bmp"
+IDB_BMPLIST_CONFIG      BITMAP                  "pic\\BMPLIST\\cfglist.bmp"
+IDB_MAINBAR_OPEN        BITMAP                  "pic\\MAINBAR\\闭合文件夹2.bmp"
+IDB_MAINBAR_OPEN_CHK    BITMAP                  "pic\\MAINBAR\\闭合文件夹2_c.bmp"
+IDB_MAINBAR_OPEN_SEL    BITMAP                  "pic\\MAINBAR\\闭合文件夹2_s.bmp"
+IDB_MAINBAR_OPEN_DIS    BITMAP                  "pic\\MAINBAR\\闭合文件夹2_d.bmp"
+IDB_MAINBAR_CLOSE       BITMAP                  "pic\\MAINBAR\\打开文件1.bmp"
+IDB_MAINBAR_CLOSE_CHK   BITMAP                  "pic\\MAINBAR\\打开文件1_c.bmp"
+IDB_MAINBAR_CLOSE_DIS   BITMAP                  "pic\\MAINBAR\\打开文件1_d.bmp"
+IDB_MAINBAR_CLOSE_SEL   BITMAP                  "pic\\MAINBAR\\打开文件1_s.bmp"
+IDB_BITMAP_BUTTON_DOWNLOADH BITMAP                  "pic\\MAINBAR\\dl_h.bmp"
+IDB_BITMAP_BUTTON_BROWSEH BITMAP                  "pic\\MAINBAR\\liulan1.bmp"
+IDB_BITMAP_BUTTON_GROUP BITMAP                  "pic\\MAINBAR\\group1.bmp"
+IDB_BITMAP_BUTTON_COMMENT BITMAP                  "pic\\BUTTON\\comments.bmp"
+IDB_BITMAP_BLANKSTAR    BITMAP                  "pic\\MAINBAR\\star_blank.bmp"
+IDB_BITMAP_STAR         BITMAP                  "pic\\BUTTON\\star.bmp"
+IDB_SEARCHLIST_ICON_HUNTMINE BITMAP                  "pic\\MAINBAR\\img_huntmine.bmp"
+IDB_SEARCHLIST_ICON_OPENCOURSE BITMAP                  "pic\\SEARCH\\img_opencourse.bmp"
+IDB_BITMAP_DWZL         BITMAP                  "pic\\SHADOW\\shadow2.bmp"
+IDB_BITMAP_KJFL         BITMAP                  "pic\\SHADOW\\shadow1.bmp"
+IDB_BITMAP_WJSX         BITMAP                  "pic\\SHADOW\\shadow3.bmp"
+IDB_BITMAP_YJXX         BITMAP                  "pic\\SHADOW\\shadow4.bmp"
+IDB_BITMAP_DJHD         BITMAP                  "pic\\SHADOW\\shadow5.bmp"
+IDB_BITMAP_BUTTON_COMMENT_FALSE BITMAP                  "pic\\BUTTON\\comments_false.bmp"
+IDB_SEARCHLIST_ICON_DU8 BITMAP                  "pic\\SEARCH\\img_du8.bmp"
+IDB_SEARCHLIST_ICON_BAIDUE BITMAP                  "pic\\mainbar\\bitmap8.bmp"
+IDB_SEARCHLIST_ICON_BAIDU BITMAP                  "pic\\SEARCH\\img_baidu.bmp"
+IDB_SEARCHLIST_ICON_DUXIU BITMAP                  "pic\\SEARCH\\img_duxiu.bmp"
+IDB_BITMAP_BUTTON_EMAIL_R BITMAP                  "pic\\BUTTON\\email_r.bmp"
+IDB_BITMAP_ZST          BITMAP                  "pic\\MAINBAR\\zst.bmp"
+IDB_SEARCHLIST_ICON_DANGDANG BITMAP                  "pic\\SEARCH\\img_dangdang.bmp"
+IDB_BITMAP_BUTTON_BUY   BITMAP                  "pic\\BUTTON\\buy.bmp"
+IDB_SEARCHLIST_ICON_FANSHU BITMAP                  "pic\\SEARCH\\img_fanshu.bmp"
+IDB_SEARCHLIST_ICON_BDWENKU BITMAP                  "pic\\SEARCH\\img_bdwenku.bmp"
+IDB_SEARCHLIST_ICON_SINAIASK BITMAP                  "pic\\SEARCH\\img_sinaiask.bmp"
+IDB_BITMAP_BUTTON_ZHANKAI BITMAP  "pic\\BUTTON\\zhankai.bmp"
+IDB_BITMAP_BUTTON_SHOUQI BITMAP  "pic\\BUTTON\\shouqi.bmp"
+IDB_SEARCHLIST_ICON_MAKEBOOK BITMAP  "pic\\SEARCH\\img_makebook.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "通讯日志",                        ID_MENUITEM_COMMLOG
+        MENUITEM "通讯监控",                        ID_MENUITEM_COMMANAL
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "选项(&O)"
+    BEGIN
+        POPUP "读物展示风格"
+        BEGIN
+            MENUITEM "列表(&L)",                      ID_MENUITEM_LIST, CHECKED
+            MENUITEM "详细信息(&I)",                    ID_MENUITEM_REPORT, CHECKED
+        END
+        MENUITEM "修改个人信息",                      ID_MENUITEM_MODIFY
+        MENUITEM "我的积分",                        ID_MENUITEM_SCORE
+        MENUITEM "设置(&C)...",                   ID_MENUITEM_CONFIG
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        MENUITEM "WOL书籍阅读(&V)",                 ID_TOOLS_READWOLF
+        MENUITEM "WOL书籍制作(&M)",                 ID_TOOLS_MAKEWOLF
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 Readings(&A)...",          ID_APP_ABOUT
+        MENUITEM "帮助(&H)...",                   IDC_BUTTON_HELP
+    END
+END
+
+IDR_TRAYMENU MENU 
+BEGIN
+    POPUP "Readings"
+    BEGIN
+        MENUITEM "显示窗口(&S)",                    ID_SHOWUI
+        MENUITEM "隐藏窗口(&N)",                    ID_HIDEUI
+        MENUITEM SEPARATOR
+        MENUITEM "帮助(&H)...",                   ID_HELP
+        MENUITEM "关于(&A)...",                   ID_APP_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+END
+
+IDR_MENU_DL MENU 
+BEGIN
+    POPUP "DownLoad"
+    BEGIN
+        MENUITEM "开始",                          ID_MENUITEM32777
+        MENUITEM "暂停",                          ID_MENUITEM32778
+        MENUITEM "删除",                          ID_MENUITEM32779
+    END
+END
+
+IDR_MENU_LIST MENU 
+BEGIN
+    POPUP "filelist"
+    BEGIN
+        MENUITEM "阅读",                          ID_MENUITEM_READ
+        MENUITEM "同步",                          ID_MENUITEM_SYN
+        MENUITEM SEPARATOR
+        MENUITEM "移动...",                       ID_MENUITEM_MOVE
+        MENUITEM "复制...",                       ID_MENUITEM_COPY
+        MENUITEM "删除",                          ID_MENUITEM_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "打开所在文件夹",                     ID_MENUITEM_OPENFOLDER
+    END
+    POPUP "orderlist"
+    BEGIN
+        MENUITEM "订阅",                          ID_MENUITEM_ORDER
+        MENUITEM "下载",                          ID_MENUITEM_DOWNLOAD
+    END
+    POPUP "style_list"
+    BEGIN
+        POPUP "自动排序"
+        BEGIN
+            MENUITEM "标题",                          ID_MENUITEM_TITLE, CHECKED
+            MENUITEM "提供者",                         ID_MENUITEM_SHAREUSER, CHECKED
+            MENUITEM "创建时间",                        ID_MENUITEM_CREATEDATE, CHECKED
+            MENUITEM "文件类型",                        ID_MENUITEM_FILETYPE, CHECKED
+            MENUITEM "下载次数",                        ID_MENUITEM_DOWNTIME, CHECKED
+            MENUITEM "当前状态",                        ID_MENUITEM_ISACTIVE, CHECKED
+        END
+    END
+    POPUP "collect_list"
+    BEGIN
+        POPUP "自动排序"
+        BEGIN
+            MENUITEM "标题",                          ID_MENUITEM_TITLE, CHECKED
+            MENUITEM "大小",                          ID_MENUITEM_SIZE, CHECKED
+            MENUITEM "时间",                          ID_MENUITEM_CREATEDATE, CHECKED
+            MENUITEM "文件类型",                        ID_MENUITEM_FILETYPE, CHECKED
+        END
+    END
+    POPUP "result_list"
+    BEGIN
+        MENUITEM "打开所在文件夹",                     ID_MENUITEM_OPENFOLDER
+        MENUITEM SEPARATOR
+        MENUITEM "移动...",                       ID_MENUITEM_MOVE
+        MENUITEM "复制...",                       ID_MENUITEM_COPY
+        MENUITEM "删除",                          ID_MENUITEM_DELETE
+    END
+END
+
+IDR_MENU_TREE MENU 
+BEGIN
+    POPUP "Folder"
+    BEGIN
+        MENUITEM "增加分类...",                     ID_MENUITEM_ADDFOLDER
+        MENUITEM "删除分类...",                     ID_MENUITEM_DELFOLDER
+        MENUITEM "打开所在的文件夹",                    ID_MENUITEM_OPENFOLDER
+        MENUITEM "备份...",                       ID_MENUITEM_BACKUP
+    END
+END
+
+IDR_MENU_RIGHTTREE MENU 
+BEGIN
+    POPUP "create"
+    BEGIN
+        MENUITEM "创建群落...",                     ID_MENUITEM_CREATERG
+        MENUITEM "寻找群落...",                     ID_MENUITEM_SEARCHRG
+        MENUITEM "刷新",                          ID_MENUITEM_REFRESH
+    END
+    POPUP "RicketTree"
+    BEGIN
+        MENUITEM "锐客资源显示",                      ID_MENUITEM_RICKRESOURCE
+        MENUITEM "锐客信息查询",                      ID_MENUITEM_RICKERINFO
+        MENUITEM "加为我的好友",                      IDC_MENUITEM_ADDRICKER
+        MENUITEM "删除该好友",                       IDC_MENUITEM_DELETERICKER
+    END
+    POPUP "studyhall"
+    BEGIN
+        MENUITEM "加到我的自习室",                     ID_MENUITEM_TOMYSTUDY
+        MENUITEM "添加教学楼或自习室",                   ID_MENUITEM_ADDHALL
+    END
+    POPUP "studyhallMain"
+    BEGIN
+        MENUITEM "添加大学",                        ID_MENUITEM_ADDUNIVERSITY
+    END
+END
+
+IDR_MENU_RE_GROUP MENU 
+BEGIN
+    POPUP "ReGroup"
+    BEGIN
+        MENUITEM "Wiki知识成份设定",                  ID_MENU_KEYWORDS
+        MENUITEM "转置我的读物群落",                    ID_MENU_TOMYFAVOR
+        MENUITEM "创建属于该类别的群落",                  ID_MENU_CREATE_REGROUP
+        MENUITEM "创建属于该类别的下层类别",                ID_MENU_CREATE_LEVELGROUP
+        MENUITEM "删除该群落",                       ID_MENU_DELETE
+    END
+END
+
+IDR_MENU_DOWNLOAD MENU 
+BEGIN
+    POPUP "download"
+    BEGIN
+        MENUITEM "删除任务",                        ID_MENU_STOPDOWNLOAD
+    END
+END
+
+IDR_MENU_NETBOOK MENU 
+BEGIN
+    POPUP "netBook"
+    BEGIN
+        MENUITEM "转至我的读物部落",                    ID_MENU_MOVEUP
+        MENUITEM "制书",                          ID_MENU_MAKEBOOK
+        MENUITEM "添加下层网络读物",                    ID_MENU_ADDNETBOOK
+        MENUITEM "修改网络读物信息",                    ID_MENU_SETNETBOOK
+        MENUITEM "删除网络读物",                      ID_MENU_DELNETBOOK
+    END
+END
+
+IDR_MENU_MYRESOURCE MENU 
+BEGIN
+    POPUP "myresource"
+    BEGIN
+        MENUITEM "从这里移除",                       ID_MENUITEM_REMOVE
+        MENUITEM "制书",                          IDC_MENUITEM_MAKEBOOK
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 271, 93
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Readings"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "数字读物聚合平台系统 版本V3.0",IDC_STATIC,64,26,130,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2008-2010 天津津科电子有限公司",IDC_STATIC,
+                    54,43,185,11
+    DEFPUSHBUTTON   "确定",IDOK,101,64,50,14,WS_GROUP
+END
+
+IDD_MAINBAR DIALOG  0, 0, 678, 20
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "刷新",IDC_BUTTON_REFRESH,"Button",BS_OWNERDRAW | WS_TABSTOP,4,2,37,18
+    CONTROL         "同步",IDC_BUTTON_SYN,"Button",BS_OWNERDRAW | WS_TABSTOP,49,2,37,18
+    CONTROL         "订阅",IDC_BUTTON_ORDERLIST,"Button",BS_OWNERDRAW | WS_TABSTOP,95,2,57,18
+    CONTROL         "搜索",IDC_BUTTON_SEARCH_STR,"Button",BS_OWNERDRAW | WS_TABSTOP,169,2,24,18
+    EDITTEXT        IDC_EDIT_SEARCH_KEY,197,3,194,15,ES_AUTOHSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "搜索",IDC_BUTTON_SEARCH,393,2,37,18
+    CONTROL         "历史纪录",IDC_BUTTON_HISTORY,"Button",BS_OWNERDRAW | WS_TABSTOP,443,1,37,18
+    CONTROL         "用户建议",IDC_BUTTON_USERADV,"Button",BS_OWNERDRAW | WS_TABSTOP,492,1,37,18
+    CONTROL         "帮助",IDC_BUTTON_HELP,"Button",BS_OWNERDRAW | WS_TABSTOP,538,1,37,18
+    CONTROL         "展开/闭合",IDC_BUTTON_OPEN_CLOSE,"Button",BS_OWNERDRAW | WS_TABSTOP,621,1,42,17
+    PUSHBUTTON      "邮件",IDC_BUTTON_MAIL,580,3,35,14
+END
+
+IDD_DIALOG_REG DIALOG  0, 0, 337, 181
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Readings同步·阅读空间站登录3.0 Beta"
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_COMBO_USERNAME,201,77,75,52,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PASSWORD,201,97,75,14,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,120,144,51,22
+    CONTROL         "",IDC_BUTTON_REG,"Button",BS_OWNERDRAW | WS_TABSTOP,248,147,37,17
+    CONTROL         "",IDC_BUTTON_GUEST,"Button",BS_OWNERDRAW | WS_TABSTOP,184,144,51,22
+    CONTROL         "",IDC_BUTTON_GETPWD,"Button",BS_OWNERDRAW | WS_TABSTOP,292,147,37,17
+    CONTROL         "Check1",IDC_CHECK_OFFLINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,147,120,8,10
+    CONTROL         "Check2",IDC_CHECK_SAVE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,208,120,8,10
+    CONTROL         "Check3",IDC_CHECK_AUTOLOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,268,120,8,10
+    COMBOBOX        IDC_COMBO_SERVER,201,18,75,52,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SEL_REMOVEDISK,201,37,75,41,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_HTTPDOWN DIALOG  0, 0, 262, 29
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "请稍候"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,210,7,50,14
+    LTEXT           "正在获取服务器信息，请稍候",IDC_STATIC_TIP,11,10,189,11
+END
+
+IDD_DIALOG_SHOW DIALOG  0, 0, 282, 208
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_EXPLORER,"{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,11,25,252,161
+END
+
+IDD_DIALOG_COMMDLG DIALOG  0, 0, 178, 315
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_SEND,3,245,169,47,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    PUSHBUTTON      "关闭",IDC_BUTTON_CLOSE,5,297,50,14
+    DEFPUSHBUTTON   "发送",IDC_BUTTON_SEND,123,297,50,14
+    CONTROL         "Tree1",IDC_USER_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,4,117,168,58
+    CONTROL         "",IDC_RICHEDIT_RECV,"RICHEDIT",TCS_HOTTRACK | TCS_RAGGEDRIGHT | TCS_MULTISELECT | WS_BORDER | WS_VSCROLL | WS_TABSTOP,4,194,166,46
+    PUSHBUTTON      "聊天记录",IDC_BUTTON_MSGRECORD,66,297,50,14
+END
+
+IDD_DIALOG_READ DIALOG  0, 0, 246, 162
+STYLE DS_SETFONT | WS_CHILD | WS_VSCROLL | WS_HSCROLL
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "Button1",IDC_BUTTON_FC,43,51,50,14,NOT WS_VISIBLE
+END
+
+IDD_CONTROLBAR DIALOG  0, 0, 443, 18
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "宋体"
+BEGIN
+    CONTROL         "",IDC_BUTTON_LEFT,"Button",BS_OWNERDRAW | WS_TABSTOP,165,0,16,16
+    EDITTEXT        IDC_EDIT1,188,1,40,14,ES_CENTER | ES_AUTOHSCROLL
+    CONTROL         "",IDC_BUTTON_RIGHT,"Button",BS_OWNERDRAW | WS_TABSTOP,231,0,16,16
+    CONTROL         "",IDC_BUTTON_ZOOM,"Button",BS_OWNERDRAW | WS_TABSTOP,280,0,33,16
+    CONTROL         "",IDC_BUTTON_MENU,"Button",BS_OWNERDRAW | WS_TABSTOP,337,0,33,16
+END
+
+IDD_DIALOG_TIP DIALOG  0, 0, 196, 87
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "宋体"
+BEGIN
+END
+
+IDD_DIALOG_SYN DIALOG  0, 0, 198, 39
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "正在同步您的SD卡，请稍候...",IDC_STATIC,8,6,118,9
+    CONTROL         "Progress1",IDC_PROGRESS_SYN,"msctls_progress32",PBS_SMOOTH | WS_BORDER,7,19,186,13
+END
+
+IDD_DIALOG_SYN_LIST DIALOG  0, 0, 308, 163
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "同步列表"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,209,142,41,14
+    PUSHBUTTON      "取消",IDCANCEL,260,142,41,14
+    CONTROL         "List1",IDC_SYNLIST,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,5,294,129
+    PUSHBUTTON      "全部选择",IDC_BUTTON_SELALL,7,142,41,14
+    PUSHBUTTON      "全部取消",IDC_BUTTON_CANCELALL,61,142,41,14
+    PUSHBUTTON      "选择高亮",IDC_BUTTON_SELHIGHLIGHT,115,142,41,14
+END
+
+IDD_SELPATH_DIALOG DIALOG  0, 0, 197, 203
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "路径选择"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,94,182,43,14
+    PUSHBUTTON      "取消",IDCANCEL,145,182,43,14
+    PUSHBUTTON      "新分类",IDC_BUTTON_NEWTYPE,7,182,43,14
+    CONTROL         "Tree1",IDC_TREE_DOWNLOAD,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,7,23,181,150
+    LTEXT           "请选择下载的位置",IDC_STATIC,7,7,68,8
+END
+
+IDD_DIALOG_INPUT DIALOG  0, 0, 171, 49
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请输入"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,36,28,44,14
+    PUSHBUTTON      "取消",IDCANCEL,99,28,44,14
+    LTEXT           "新分类的名称：",IDC_STATIC,8,10,57,8
+    EDITTEXT        IDC_EDIT_NAME,71,7,93,13,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_CONFIG DIALOG  0, 0, 296, 243
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Readings参数设置"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "确定",IDOK,174,225,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,239,225,50,14,BS_FLAT
+    CONTROL         "List1",IDC_LIST_SEL,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,7,7,102,211
+END
+
+IDD_CONFIGPAGE_SHARE DIALOG  0, 0, 187, 220
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "指定共享目录",IDC_CHECK_SHAREFOLDER,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,7,120,10
+    CONTROL         "指定共享的文件格式",IDC_CHECK_SHAREFORMAT,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,107,175,10
+    LISTBOX         IDC_LIST_SHAREFOLDER,7,21,172,59,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tree2",IDC_TREE_SHAREFORMAT,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,7,122,172,93
+    PUSHBUTTON      "添加...",IDC_BUTTON_ADDSHARE,84,84,42,13
+    PUSHBUTTON      "删除",IDC_BUTTON_DELSHARE,134,84,42,13
+END
+
+IDD_CONFIGPAGE_NORMAL DIALOG  0, 0, 177, 239
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        " 启动 ",IDC_STATIC,7,7,163,85
+    CONTROL         "检查新版本",IDC_CHECK_NEWVERSION,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,24,24,56,10
+    LTEXT           "每隔",IDC_STATIC_TIPS,99,25,17,8
+    EDITTEXT        IDC_EDIT_INTERVAL,121,23,30,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,22,6,14
+    CONTROL         "自动登录",IDC_CHECK_AUTOLOGIN,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,24,40,48,10
+    CONTROL         "启动时最小化",IDC_CHECK_SHOWMIN,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,24,56,64,10
+    CONTROL         "在Windows启动时运行",IDC_CHECK_AUTORUN,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,24,71,92,10
+    GROUPBOX        " 退出 ",IDC_STATIC,7,94,163,38
+    CONTROL         "退出时提示确认",IDC_CHECK_CONFIRM_QUIT,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,24,110,72,10
+    LTEXT           "天",IDC_STATIC_TIPS2,154,25,9,8
+END
+
+IDD_CONFIGPAGE_FAVOR DIALOG  0, 0, 177, 240
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        " 收藏夹目录 ",IDC_STATIC,3,7,170,33
+    EDITTEXT        IDC_EDIT_FAVORFOLDER,7,20,120,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "浏览",IDC_BUTTON_FAVORFOLDER_BROWSE,131,20,38,12,BS_FLAT
+    GROUPBOX        " 收藏夹清理 ",IDC_STATIC,3,43,170,71
+    CONTROL         "不清理",IDC_RADIO_NEVER,"Button",BS_AUTORADIOBUTTON | WS_GROUP,12,58,54,10
+    CONTROL         "定期清理推送的报纸",IDC_RADIO_PDF_AUTO,"Button",BS_AUTORADIOBUTTON,12,76,88,10
+    CONTROL         "定期清理所有的文件",IDC_RADIO_ALL_AUTO,"Button",BS_AUTORADIOBUTTON,12,94,88,10
+    LTEXT           "每隔",IDC_STATIC_TIPS1,109,77,17,8
+    EDITTEXT        IDC_EDIT_PAPDAY,126,75,26,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_PAP,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,73,10,14
+    LTEXT           "天",IDC_STATIC_TIPS2,155,77,9,8
+    LTEXT           "每隔",IDC_STATIC_TIPS3,109,95,17,8
+    EDITTEXT        IDC_EDIT_ALLDAY,126,93,26,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_SPIN_ALL,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,143,92,10,14
+    LTEXT           "天",IDC_STATIC_TIPS4,155,95,9,8
+    CONTROL         "本地全部磁盘",IDC_RADIO_ALLDISK,"Button",BS_AUTORADIOBUTTON | WS_GROUP,12,129,64,10
+    CONTROL         "指定文件夹",IDC_RADIO_SPECDISK,"Button",BS_AUTORADIOBUTTON,95,129,56,10
+    GROUPBOX        " 格式采集范围 ",IDC_STATIC,4,117,169,100
+    LISTBOX         IDC_LIST_COLLECT,9,143,146,70,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "+",IDC_BUTTON_ADD_COLLECTFOLDER,158,143,14,13,BS_CENTER | BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "-",IDC_BUTTON_DEL_COLLECTFOLDER,158,198,14,13,BS_CENTER | BS_VCENTER | BS_FLAT
+END
+
+IDD_CONFIGPAGE_SERVER DIALOG  0, 0, 177, 236
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "IPAddress1",IDC_IPADDRESS,"SysIPAddress32",WS_TABSTOP,39,31,82,13
+    GROUPBOX        " P2P服务设置",IDC_STATIC,7,15,163,61
+    LTEXT           "IP：",IDC_STATIC,19,33,17,8
+    PUSHBUTTON      "自动检测",IDC_BUTTON_AUTO_DETECT,125,31,39,13,BS_FLAT
+    LTEXT           "端口：",IDC_STATIC,11,53,25,8
+    EDITTEXT        IDC_EDIT_SEV_PORT,39,50,57,14,ES_AUTOHSCROLL
+    LTEXT           "(请不要随意修改)",IDC_STATIC,97,52,65,8
+    GROUPBOX        " 本地端口设置 ",IDC_STATIC,7,87,163,67
+    LTEXT           "控制端口：",IDC_STATIC,19,107,41,8
+    LTEXT           "传输端口：",IDC_STATIC,19,127,41,8
+    EDITTEXT        IDC_EDIT_CTR_PORT,66,104,56,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TRAN_PORT,66,124,56,14,ES_AUTOHSCROLL
+END
+
+IDD_CONFIGPAGE_PUSH DIALOG  0, 0, 177, 236
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Readman新闻推送",IDC_CHECK_READMAN,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,28,31,76,10
+    CONTROL         "报纸杂志推送",IDC_CHECK_PUSH,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,28,56,64,10
+END
+
+IDD_DIALOG_NEWRG DIALOG  0, 0, 169, 29
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请输入创建群落的名称"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,120,8,43,14
+    EDITTEXT        IDC_EDIT_RGTITLE,6,8,110,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_TALK DIALOG  0, 0, 189, 199
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,135,182,50,14
+    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",TCS_VERTICAL | WS_BORDER | WS_TABSTOP,3,3,182,110
+    CONTROL         "",IDC_RICHEDIT2,"RICHEDIT",TCS_VERTICAL | WS_BORDER | WS_TABSTOP,3,125,182,55
+END
+
+IDD_DIALOG_WATERMARKLINK DIALOG  0, 0, 248, 150
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "水印信息"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,184,123,47,14
+    LTEXT           "水印信息已提取完成",IDC_STATIC,15,14,85,13
+    LTEXT           "水印信息链如下：",IDC_STATIC,15,29,82,13
+    EDITTEXT        IDC_EDIT1,16,43,218,75,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_CLASSIFY DIALOG  0, 0, 271, 181
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "资源群落归属设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,23,160,50,14
+    PUSHBUTTON      "取消",IDCANCEL,83,160,50,14
+    GROUPBOX        "双击选择资源归属群落",IDC_STATIC,19,14,116,137
+    CONTROL         "Tree1",IDC_TREE_GROUP,"SysTreeView32",WS_BORDER | WS_TABSTOP,30,32,96,109
+    GROUPBOX        "资源所属群落",IDC_STATIC,153,14,99,152
+    LISTBOX         IDC_TYPELIST,164,32,81,111,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "删除",IDC_BUTTON_DEL,206,148,40,12
+    LTEXT           "   =〉",IDC_STATIC,131,67,25,8
+END
+
+IDD_DIALOG_CREATE_REGROUP DIALOG  0, 0, 258, 211
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "创建新群落"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,107,181,50,14
+    PUSHBUTTON      "取消",IDCANCEL,169,181,50,14
+    LTEXT           "新群落名称:",static1,13,19,47,10
+    EDITTEXT        IDC_EDIT_NAME,67,17,168,14
+    LTEXT           "新群落描述信息：",IDC_STATIC,13,42,65,8
+    EDITTEXT        IDC_EDIT_DES,13,54,142,118,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "主题词 1",IDC_STATIC,163,47,33,8
+    LTEXT           "主题词 2",IDC_STATIC,161,88,33,8
+    LTEXT           "主题词 3",IDC_STATIC,163,133,33,8
+    EDITTEXT        IDC_KEY1,168,59,64,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_KEY2,167,101,64,17,ES_AUTOHSCROLL
+    EDITTEXT        IDC_KEY3,168,147,64,16,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_RGROUPKEYWORD DIALOG  0, 0, 554, 395
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Wiki知识成份设定"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,483,13,44,17
+    PUSHBUTTON      "取消",IDCANCEL,483,37,44,17
+    LTEXT           "其他人设定的主题词：",IDC_STATIC,213,354,81,13,NOT WS_VISIBLE
+    LTEXT           "主题词1：",IDC_STATIC_ZTC1,23,76,36,10
+    LTEXT           "主题词2：",IDC_STATIC_ZTC2,23,96,36,10
+    LTEXT           "主题词3：",IDC_STATIC_ZTC3,23,116,36,10
+    EDITTEXT        IDC_EDIT_KEY1,77,72,79,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_KEY2,77,93,78,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_KEY3,77,113,79,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OKEYWORDS,297,352,43,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "主题词设定历史纪录：",IDC_STATIC,377,353,99,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_RECORD,481,351,44,15,ES_MULTILINE | ES_AUTOHSCROLL | NOT WS_VISIBLE
+    CTEXT           "历  史",IDC_STATIC,44,44,35,13
+    PUSHBUTTON      "<<",IDC_HISTORY_UP,25,41,17,13
+    PUSHBUTTON      ">>",IDC_HISTORY_DOWN,83,41,17,13
+    PUSHBUTTON      "恢复设置",IDC_BUTTON3,121,38,44,16
+    PUSHBUTTON      "默认设置",IDC_BUTTON4,183,38,44,16
+    GROUPBOX        "主题词（3）",IDC_ZTC,19,60,169,74
+    PUSHBUTTON      "<<",IDC_BUTTON5,59,72,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON6,155,72,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON7,59,92,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON8,155,92,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON9,59,112,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON10,155,112,17,14
+    GROUPBOX        "信息源（0）",IDC_STATIC,17,224,524,106
+    LTEXT           "1  名称：",IDC_STATIC,25,236,36,10
+    EDITTEXT        IDC_EDIT1,65,234,75,12,ES_AUTOHSCROLL
+    LTEXT           "URL：",IDC_STATIC,153,235,23,11
+    EDITTEXT        IDC_EDIT2,177,235,123,12,ES_AUTOHSCROLL
+    LTEXT           "参数1：",IDC_STATIC,319,236,30,12
+    EDITTEXT        IDC_EDIT3,349,236,59,12,ES_AUTOHSCROLL
+    LTEXT           "参数2：",IDC_STATIC,423,236,30,12
+    EDITTEXT        IDC_EDIT4,455,236,65,13,ES_AUTOHSCROLL
+    LTEXT           "2  名称：",IDC_STATIC,25,252,36,10
+    EDITTEXT        IDC_EDIT5,65,250,75,12,ES_AUTOHSCROLL
+    LTEXT           "URL：",IDC_STATIC,153,251,23,11
+    EDITTEXT        IDC_EDIT6,177,251,123,12,ES_AUTOHSCROLL
+    LTEXT           "参数1：",IDC_STATIC,319,252,30,12
+    EDITTEXT        IDC_EDIT7,349,252,59,12,ES_AUTOHSCROLL
+    LTEXT           "参数2：",IDC_STATIC,423,252,30,12
+    EDITTEXT        IDC_EDIT8,455,252,65,13,ES_AUTOHSCROLL
+    LTEXT           "3  名称：",IDC_STATIC,25,270,36,10
+    EDITTEXT        IDC_EDIT9,65,268,75,12,ES_AUTOHSCROLL
+    LTEXT           "URL：",IDC_STATIC,153,269,23,11
+    EDITTEXT        IDC_EDIT10,177,269,123,12,ES_AUTOHSCROLL
+    LTEXT           "参数1：",IDC_STATIC,319,270,30,12
+    EDITTEXT        IDC_EDIT11,349,270,59,12,ES_AUTOHSCROLL
+    LTEXT           "参数2：",IDC_STATIC,423,270,30,12
+    EDITTEXT        IDC_EDIT12,455,270,65,13,ES_AUTOHSCROLL
+    GROUPBOX        "自动搜索策略",IDC_STATIC,16,333,172,45
+    LTEXT           "自动搜索时间间隔：",IDC_STATIC,28,355,73,11
+    LTEXT           "分钟",IDC_STATIC,155,358,17,11
+    GROUPBOX        "手动策略",IDC_STATIC,192,333,172,45
+    GROUPBOX        "备份策略",IDC_STATIC,371,334,168,44
+    PUSHBUTTON      "∧",IDC_BUTTON_ZTC_UP,175,64,13,15
+    PUSHBUTTON      "∨",IDC_BUTTON_ZTC_DOWN,175,120,13,14
+    COMBOBOX        IDC_COMBO1,101,356,52,14,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "关键词1：",IDC_STATIC_GJC1,199,76,36,10
+    LTEXT           "关键词2：",IDC_STATIC_GJC2,199,96,36,10
+    LTEXT           "关键词3：",IDC_STATIC_GJC3,199,114,36,10
+    EDITTEXT        IDC_EDIT_GJC1,253,72,79,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GJC2,253,92,80,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GJC3,253,112,79,13,ES_AUTOHSCROLL
+    GROUPBOX        "关键词（0）",IDC_GJC,195,60,169,74
+    PUSHBUTTON      "<<",IDC_BUTTON11,235,73,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON12,331,72,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON13,235,93,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON14,331,92,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON25,235,111,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON26,331,111,17,14
+    PUSHBUTTON      "∧",IDC_BUTTON_GJC_UP,351,64,13,15
+    PUSHBUTTON      "∨",IDC_BUTTON_GJC_DOWN,351,120,13,14
+    LTEXT           "知识点1：",IDC_STATIC_ZSD1,377,77,36,10
+    LTEXT           "知识点2：",IDC_STATIC_ZSD2,377,97,36,10
+    LTEXT           "知识点3：",IDC_STATIC_ZSD3,377,117,36,10
+    EDITTEXT        IDC_EDIT_ZSD1,431,73,79,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ZSD2,431,93,80,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ZSD3,431,113,79,13,ES_AUTOHSCROLL
+    GROUPBOX        "知识点（0）",IDC_ZSD,371,61,169,74
+    PUSHBUTTON      "<<",IDC_BUTTON27,413,74,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON28,509,73,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON29,413,94,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON30,509,93,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON31,413,114,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON32,509,111,17,14
+    PUSHBUTTON      "∧",IDC_BUTTON_ZSD_UP,527,65,13,15
+    PUSHBUTTON      "∨",IDC_BUTTON_ZSD_DOWN,527,121,13,14
+    LTEXT           "排除词1：",IDC_STATIC,23,158,36,10
+    LTEXT           "排除词2：",IDC_STATIC,23,178,36,10
+    LTEXT           "排除词3：",IDC_STATIC,23,197,36,10
+    EDITTEXT        IDC_EDIT_PCC1,77,154,79,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PCC2,77,174,80,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PCC3,77,194,79,13,ES_AUTOHSCROLL
+    GROUPBOX        "排除词（0）",IDC_PCC,19,142,169,74
+    PUSHBUTTON      "<<",IDC_BUTTON15,59,155,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON16,155,154,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON17,59,175,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON18,155,174,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON19,59,193,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON20,155,193,17,14
+    PUSHBUTTON      "∧",IDC_BUTTON_PCC_UP,175,146,13,15
+    PUSHBUTTON      "∨",IDC_BUTTON_PCC_DOWN,175,202,13,14
+    LTEXT           "信息词1：",IDC_STATIC,199,158,36,10
+    LTEXT           "信息词2：",IDC_STATIC,199,178,36,10
+    LTEXT           "信息词3：",IDC_STATIC,199,198,36,10
+    EDITTEXT        IDC_EDIT_XXC1,253,154,79,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_XXC2,253,174,80,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_XXC3,253,193,79,13,ES_AUTOHSCROLL
+    GROUPBOX        "信息词（0）",IDC_XXC,195,142,169,74
+    PUSHBUTTON      "<<",IDC_BUTTON21,235,155,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON22,331,154,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON23,235,175,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON24,331,174,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON33,235,192,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON34,331,192,17,14
+    PUSHBUTTON      "∧",IDC_BUTTON_XXC_UP,351,146,13,15
+    PUSHBUTTON      "∨",IDC_BUTTON_XXC_DOWN,351,202,13,14
+    LTEXT           "资源词1：",IDC_STATIC,377,159,36,10
+    LTEXT           "资源词2：",IDC_STATIC,377,179,36,10
+    LTEXT           "资源词3：",IDC_STATIC,377,199,36,10
+    EDITTEXT        IDC_EDIT_ZYC1,431,155,79,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ZYC2,431,175,80,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ZYC3,431,195,79,13,ES_AUTOHSCROLL
+    GROUPBOX        "资源词（0）",IDC_ZYC,371,143,169,74
+    PUSHBUTTON      "<<",IDC_BUTTON41,413,156,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON42,509,155,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON43,413,176,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON44,509,175,17,14
+    PUSHBUTTON      "<<",IDC_BUTTON45,413,194,17,14
+    PUSHBUTTON      ">>",IDC_BUTTON46,509,194,17,14
+    PUSHBUTTON      "∧",IDC_BUTTON_ZYC_UP,527,147,13,15
+    PUSHBUTTON      "∨",IDC_BUTTON_ZYC_DOWN,527,203,13,14
+    PUSHBUTTON      "∧",IDC_BUTTON97,527,228,13,15
+    PUSHBUTTON      "∨",IDC_BUTTON98,527,315,13,14
+    LTEXT           "4  名称：",IDC_STATIC,25,288,36,10
+    EDITTEXT        IDC_EDIT14,65,286,75,12,ES_AUTOHSCROLL
+    LTEXT           "URL：",IDC_STATIC,153,287,23,11
+    EDITTEXT        IDC_EDIT13,177,287,123,12,ES_AUTOHSCROLL
+    LTEXT           "参数1：",IDC_STATIC,319,288,30,12
+    EDITTEXT        IDC_EDIT15,349,288,59,12,ES_AUTOHSCROLL
+    LTEXT           "参数2：",IDC_STATIC,423,288,30,12
+    EDITTEXT        IDC_EDIT16,455,288,65,13,ES_AUTOHSCROLL
+    LTEXT           "5  名称：",IDC_STATIC,25,306,36,10
+    EDITTEXT        IDC_EDIT17,65,304,75,12,ES_AUTOHSCROLL
+    LTEXT           "URL：",IDC_STATIC,153,305,23,11
+    EDITTEXT        IDC_EDIT18,177,305,123,12,ES_AUTOHSCROLL
+    LTEXT           "参数1：",IDC_STATIC,319,306,30,12
+    EDITTEXT        IDC_EDIT19,349,306,59,12,ES_AUTOHSCROLL
+    LTEXT           "参数2：",IDC_STATIC,423,306,30,12
+    EDITTEXT        IDC_EDIT20,455,306,65,13,ES_AUTOHSCROLL
+    LTEXT           "修改名称：",IDC_STATIC,26,20,40,11
+    EDITTEXT        IDC_EDIT_TREENAME,71,17,144,14,ES_AUTOHSCROLL
+    LTEXT           "所属院校：",IDC_STATIC,233,20,40,11
+    EDITTEXT        IDC_EDIT_SCHOOL,278,17,144,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_SCHOOL,278,39,144,58,CBS_DROPDOWNLIST | CBS_SORT | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_BACKUP DIALOG  0, 0, 258, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "备份"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "取消",IDOK,206,44,50,14
+    CONTROL         "Progress1",IDC_PROGRESS_BACKUP,"msctls_progress32",PBS_SMOOTH,4,26,251,11
+    LTEXT           "",IDC_STATIC_BACKUP,6,9,248,10
+    LTEXT           "正在计算剩余时间",IDC_STATIC_TIME,5,45,104,10
+END
+
+IDD_DIALOG_COMMENTS DIALOG  0, 0, 255, 223
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对该资源的评论"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "关闭",IDCANCEL,158,204,33,14
+    LTEXT           "大家的评论",IDC_STATIC,15,5,60,12
+    EDITTEXT        IDC_EDIT_COMMENTS,15,17,210,108,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+    LTEXT           "请添加您的评论",IDC_STATIC,14,131,63,12
+    EDITTEXT        IDC_EDIT_MYCOMMENTS,13,143,213,56,ES_MULTILINE | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "提交",IDC_BUTTON_SUBMIT,195,204,33,14
+END
+
+IDD_DIALOG_COMMLOG DIALOG  0, 0, 364, 236
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "通讯流量监控"
+FONT 10, "System"
+BEGIN
+    CONTROL         "Tree1",IDC_TREE_OPER,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,5,5,90,225
+    CONTROL         "List1",IDC_LIST_LOG,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,100,5,260,145
+    GROUPBOX        "全局统计",IDC_STATIC,100,155,260,75
+    CONTROL         "List2",IDC_LIST_PUBINFO,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,105,165,250,60
+END
+
+IDD_DIALOG_USERINFO DIALOG  0, 0, 181, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户资料"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "关闭",IDCANCEL,128,79,34,14
+    LTEXT           "用户名：",IDC_STATIC,13,20,39,9
+    LTEXT           "",IDC_STATIC_NAME,48,20,113,8
+    LTEXT           " 网络：",IDC_STATIC,9,37,31,8
+    LTEXT           "",IDC_STATIC_CITY,49,35,119,8
+    LTEXT           "IP ：",IDC_STATIC,15,53,22,8
+    LTEXT           "",IDC_STATIC_IP,49,53,119,8
+END
+
+IDD_DIALOG_SMS DIALOG  0, 0, 204, 116
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "发送请求资源信息"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "发送",IDOK,13,95,50,14
+    PUSHBUTTON      "取消",IDCANCEL,71,95,50,14
+    LTEXT           "请求消息",IDC_STATIC,7,13,36,10
+    EDITTEXT        IDC_SMS_MESSAGE,55,10,105,60,ES_AUTOHSCROLL
+    LTEXT           "我的资源",IDC_STATIC,13,79,35,10
+    EDITTEXT        IDC_SMS_RESOURCE,55,75,105,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览",IDC_SMS_EXPLORER,167,75,30,15
+END
+
+IDD_DIALOG_MAIL DIALOG  0, 0, 237, 135
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "发送请求资源邮件"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "发送",IDOK,110,117,50,14
+    PUSHBUTTON      "取消",IDCANCEL,174,117,50,14
+    LTEXT           "请求消息",IDC_STATIC,11,31,36,10
+    EDITTEXT        IDC_MESSAGE,60,28,105,60,ES_AUTOHSCROLL
+    LTEXT           "我的资源",IDC_STATIC,12,96,35,10,NOT WS_VISIBLE
+    EDITTEXT        IDC_RESOURCE,60,95,105,15,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "浏览",IDC_EXPLORER,186,95,30,15,NOT WS_VISIBLE
+    CONTROL         "短信提示",IDC_ISSMS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,96,70,15
+    LTEXT           "请求资源名",IDC_STATIC,5,5,45,10
+    LTEXT           "",IDC_RESOURCE_NAME,61,5,110,15
+END
+
+IDD_DIALOGADDUNIVERSITY DIALOG  0, 0, 221, 157
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加大学"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,97,136,50,14
+    PUSHBUTTON      "取消",IDCANCEL,153,136,50,14
+    LTEXT           "大学名称",IDC_STATIC,54,17,35,8
+    EDITTEXT        IDC_UNAME_EDIT,92,13,80,17,ES_AUTOHSCROLL
+    LTEXT           "大学描述",IDC_STATIC,15,34,36,12
+    EDITTEXT        IDC_UDESC_EDIT,13,45,193,83,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_ADDSTUDYBUILDING DIALOG  0, 0, 225, 161
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加属于该教学楼或自习室"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,105,134,50,14
+    PUSHBUTTON      "取消",IDCANCEL,162,134,50,14
+    LTEXT           "名称",IDC_STATIC,67,17,22,12
+    EDITTEXT        IDC_EDIT_NAME,93,15,63,12,ES_AUTOHSCROLL
+    LTEXT           "描述",IDC_STATIC,20,34,25,10
+    EDITTEXT        IDC_EDIT_DESC,23,45,186,81,ES_AUTOHSCROLL
+END
+
+IDD_RECVMAILDIALOG DIALOG  0, 0, 248, 197
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "接收邮件列表"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,191,45,50,14
+    LISTBOX         IDC_MAILLIST,14,21,165,51,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LTEXT           "双击选择要处理的邮件",IDC_STATIC,208,68,8,86
+    LTEXT           "未处理请求邮件请求：",IDC_STATIC,15,12,94,8
+    PUSHBUTTON      "详情",IDC_HistoryBUTTON,191,152,50,14
+    PUSHBUTTON      "刷新",IDC_Reflush,190,22,50,14
+    LTEXT           "已下载文件列表:",IDC_STATIC,16,78,59,8
+    LISTBOX         IDC_DownLoadFiles,15,89,162,79,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LTEXT           "当前处理状态:",IDC_STATIC,17,177,51,8
+    LTEXT           "stat",IDC_stat,72,177,169,8
+END
+
+IDD_REQUESTMAILDIALOG DIALOG  0, 0, 194, 179
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请求邮件处理"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,126,158,50,14
+    LTEXT           "用户名：",IDC_USER,16,14,42,8
+    LTEXT           "所请求资源：",IDC_STATIC,16,27,49,10
+    LTEXT           "对方资源列表：",IDC_STATIC,16,54,57,8
+    LISTBOX         IDC_LIST1,17,70,159,84,LBS_SORT | LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Static",IDC_USERNAME,75,13,91,8
+    LTEXT           "Static",IDC_REQUESTSOURCE,75,27,111,36
+    PUSHBUTTON      "拒绝",IDC_REFUSEBUTTON,71,158,50,14
+    LTEXT           "",IDC_INFO,15,3,161,8
+    PUSHBUTTON      "同意",IDC_AGREEBUTTON,16,158,50,14
+END
+
+IDD_DIALOG_ZST DIALOG  0, 0, 254, 134
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DIALOG_TABNEW DIALOG  0, 0, 187, 98
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,70,65,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,123,65,50,14
+END
+
+IDD_YESNODIALOG DIALOG  0, 0, 181, 85
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新版本更新提示"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "是",IDOK,21,52,50,14
+    PUSHBUTTON      "否",IDCANCEL,107,52,50,14
+    LTEXT           "当前有新版本需要更新，是否现在更新？",IDC_STATIC,18,24,147,20
+END
+
+IDD_DIALOG_HOTKEY DIALOG  0, 0, 125, 459
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB_MOSTNEW,"SysTabControl32",TCS_FOCUSONBUTTONDOWN,0,0,125,459
+END
+
+IDD_DIALOG_ADDNETBOOK DIALOG  0, 0, 212, 94
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加下层网络读物"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,43,15,125,12,ES_AUTOHSCROLL
+    LTEXT           "名称：",IDC_STATIC,13,17,25,10
+    LTEXT           "URL：",IDC_STATIC,13,35,24,8
+    EDITTEXT        IDC_EDIT_URL,43,31,160,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "确定",IDC_BUTTON_ADDNETBOOK,42,62,33,13
+    PUSHBUTTON      "取消",IDCANCEL,121,63,33,13
+END
+
+IDD_AGREEMAILDIALOG DIALOG  0, 0, 187, 159
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "同意邮件处理"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,118,138,50,14
+    LTEXT           "同意者：",IDC_STATIC,10,20,33,8
+    LTEXT           "",IDC_Agree,59,20,59,8
+    LTEXT           "文件名：",IDC_STATIC,10,34,33,8
+    LTEXT           "",IDC_filename,59,34,59,8
+    LTEXT           "对方要求交换的资源列表：",IDC_STATIC,10,48,97,8
+    LISTBOX         IDC_ChargeFileList,10,58,158,75,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "下载附件并发送交换资源",IDC_BUTTON1,15,138,91,14,NOT WS_VISIBLE
+    LTEXT           "",IDC_INFO,14,7,122,8
+END
+
+IDD_CHARGETMAILDIALOG DIALOG  0, 0, 169, 213
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "交换邮件处理"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,103,192,50,14
+    LTEXT           "发送者：",IDC_STATIC,13,19,33,8
+    LTEXT           "",IDC_Sender,63,19,85,8
+    LTEXT           "未找到文件列表：",IDC_STATIC,13,33,65,8
+    LISTBOX         IDC_FileList,13,43,138,37,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_INFO,16,10,135,8
+    PUSHBUTTON      "下载交换资源",IDC_BUTTON1,16,192,58,14,NOT WS_VISIBLE
+    LTEXT           "收到文件列表：",IDC_STATIC,13,87,57,8
+    LISTBOX         IDC_LIST1,13,100,138,87,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_REFUSETMAILDIALOG DIALOG  0, 0, 187, 139
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "拒绝邮件处理"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "确定",IDCANCEL,22,118,50,14
+    LTEXT           "拒绝者：",IDC_STATIC,18,14,33,8
+    LTEXT           "",IDC_Refuser,60,13,90,8
+    LTEXT           "原因：",IDC_STATIC,18,52,25,8
+    LTEXT           "",IDC_Reason,60,52,102,44
+    LTEXT           "拒绝文件：",IDC_STATIC,18,33,41,8
+    LTEXT           "",IDC_fileSTATIC,60,33,87,8
+END
+
+IDD_MailHistory DIALOG  0, 0, 190, 240
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "本次处理邮件详情"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,15,215,50,14
+    LISTBOX         IDC_MAILLIST,3,23,165,51,LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "已处理请求邮件：",IDC_STATIC,4,14,94,8,NOT WS_VISIBLE
+    LTEXT           "已处理同意邮件：",IDC_STATIC,14,10,94,8
+    LTEXT           "已处理交换邮件：",IDC_STATIC,16,69,94,8
+    LTEXT           "已处理拒绝邮件：",IDC_STATIC,16,134,94,8
+    LISTBOX         IDC_MailLIST1,15,18,164,50,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LISTBOX         IDC_MailLIST2,16,78,164,56,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LISTBOX         IDC_MailLIST3,16,146,164,56,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+END
+
+IDD_drawers DIALOG  0, 0, 98, 193
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DIALOG_AUTO_LOGIN DIALOG  0, 0, 320, 181
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DIALOG_Error_Exit DIALOGEX 0, 0, 316, 182
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Readings 意外崩溃"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "重启",IDOK,71,161,50,14
+    PUSHBUTTON      "退出",IDCANCEL,165,161,50,14
+    LTEXT           "Readings 因为意外的原因崩溃，对此我们深感遗憾。请重启使用。",IDC_STATIC,33,34,248,8,NOT WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "Readings Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Readings"
+            VALUE "LegalCopyright", "版权所有 (C) 2007"
+            VALUE "OriginalFilename", "Readings.EXE"
+            VALUE "ProductName", "Readings 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 264
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_MAINBAR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 670
+    END
+
+    IDD_DIALOG_REG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_DIALOG_READ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_CONTROLBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 436
+    END
+
+    IDD_DIALOG_SYN_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 301
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_SELPATH_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_DIALOG_INPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 42
+    END
+
+    IDD_DIALOG_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+
+    IDD_CONFIGPAGE_NORMAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_CONFIGPAGE_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+
+    IDD_CONFIGPAGE_PUSH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+
+    IDD_DIALOG_TALK, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 185
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_DIALOG_WATERMARKLINK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_DIALOG_CLASSIFY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 264
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_DIALOG_CREATE_REGROUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+
+    IDD_DIALOG_RGROUPKEYWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 549
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 388
+    END
+
+    IDD_DIALOG_COMMENTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+    END
+
+    IDD_DIALOG_COMMLOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 357
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+
+    IDD_DIALOG_USERINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_DIALOGADDUNIVERSITY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_DIALOG_ADDSTUDYBUILDING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_RECVMAILDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 190
+    END
+
+    IDD_REQUESTMAILDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 186
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 172
+    END
+
+    IDD_DIALOG_ZST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_DIALOG_TABNEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_YESNODIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_DIALOG_HOTKEY, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 282
+    END
+
+    IDD_DIALOG_ADDNETBOOK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_MailHistory, DIALOG
+    BEGIN
+        RIGHTMARGIN, 185
+    END
+
+    IDD_drawers, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_DIALOG_AUTO_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_DIALOG_Error_Exit, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        BOTTOMMARGIN, 175
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR              CURSOR                  "icon\\cursor.cur"
+IDC_CURSOR1             CURSOR                  "icon\\cursor1.cur"
+IDC_CURSOR2             CURSOR                  "icon\\cursor2.cur"
+IDC_HANDCUR             CURSOR                  "icon\\ICR_HAND.CUR"
+IDC_DRAGGING            CURSOR                  "icon\\DRAGGING.CUR"
+IDC_NODRAGGING          CURSOR                  "icon\\NODRAGGI.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_SHOW DLGINIT
+BEGIN
+    IDC_EXPLORER, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x2711, 0x0000, 0x1903, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0002, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_READINGS            REGISTRY                "icon\\WolfND.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE_DANG           WAVE                    "sound\\Dang.WAV"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Readings\n\nReadin\n\n\nReadings.Document\nReadin Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Readings"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "建立新文档\n新建"
+    ID_FILE_OPEN            "打开一个现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "将活动文档以一个新文件名保存\n另存为"
+    ID_FILE_PAGE_SETUP      "改变打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "改变打印机及打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开该文档"
+    ID_FILE_MRU_FILE2       "打开该文档"
+    ID_FILE_MRU_FILE3       "打开该文档"
+    ID_FILE_MRU_FILE4       "打开该文档"
+    ID_FILE_MRU_FILE5       "打开该文档"
+    ID_FILE_MRU_FILE6       "打开该文档"
+    ID_FILE_MRU_FILE7       "打开该文档"
+    ID_FILE_MRU_FILE8       "打开该文档"
+    ID_FILE_MRU_FILE9       "打开该文档"
+    ID_FILE_MRU_FILE10      "打开该文档"
+    ID_FILE_MRU_FILE11      "打开该文档"
+    ID_FILE_MRU_FILE12      "打开该文档"
+    ID_FILE_MRU_FILE13      "打开该文档"
+    ID_FILE_MRU_FILE14      "打开该文档"
+    ID_FILE_MRU_FILE15      "打开该文档"
+    ID_FILE_MRU_FILE16      "打开该文档"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预阅"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Readings.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

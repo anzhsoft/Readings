@@ -1,0 +1,1111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{133e38e3-414b-4d1e-b93b-f7c131ac853c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ccf36bae-333d-452c-b83f-a8f15b3965bd}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e5e3d793-910e-438c-a063-ad712a48da45}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddNetBookDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddUniversity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="control\AdvancedBitmapButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AgreeMail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AGREEMAILDIALOG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="control\AutoFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoLoginDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackupDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BTOperation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeMail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHARGETMAILDIALOG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommLogDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateReGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateRGDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Decrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogComments.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogMail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSMS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DigChinaBook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DigHotkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAddStudyBuilding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadCenterTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownLoadListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawerView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMailADO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorExitDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FavorPg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCollect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFindEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ForJmail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormatWaterMark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetUserInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXGROUPEDIT.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXOUTBARCTRL.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXPOPUPMENU.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuidTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HotKeyListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HotKeyTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HotKeyView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpDownLoadDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpUtl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MailHistory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainList\MainListDataFather.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainList\MainListRecentlyRead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManBooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MidRowSplitWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NameTabCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalPg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderCenterView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseTxtFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseWolFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PubInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Push.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PushAdv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PushPg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadControlBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Readings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadingsHeart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadingsView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadOnLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RECVMAILDIALOG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RefuseMail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="REFUSETMAILDIALOG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegsterDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestMail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="REQUESTMAILDIALOG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceClassify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RowSplitWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelPathDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetRGroupKeyWords.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharePg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sortclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SYNDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SynListDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TipsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transcoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeCtrlEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UDiskAuth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UploadShareFileList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UpLoadTorrent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserCommDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="control\WBButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webbrowser2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WM_Show_Dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Readings.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddNetBookDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddUniversity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="control\AdvancedBitmapButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AgreeMail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AGREEMAILDIALOG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="control\AutoFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoLoginDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackupDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeMail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHARGETMAILDIALOG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommLogDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateReGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateRGDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogComments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogMail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSMS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DigChinaBook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DigHotkey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAddStudyBuilding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadCenterTreeView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownLoadListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawerView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMailADO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorExitDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FavorPg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileCollect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFindEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ForJmail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormarWaterMark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetUserInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXGROUPEDIT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXOUTBARCTRL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXPOPUPMENU.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuidTreeView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HotKeyListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HotKeyTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HotKeyView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpDownLoadDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpUtl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MailHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainList\MainListDataFather.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainList\MainListRecentlyRead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ManBooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MidRowSplitWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NameTabCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalPg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderCenterView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseTxtFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseWolFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PubInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Push.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PushAdv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PushPg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadControlBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Readings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadingsHeart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadingsView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadOnLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RECVMAILDIALOG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RefuseMail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="REFUSETMAILDIALOG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegsterDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestMail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="REQUESTMAILDIALOG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceClassify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RowSplitWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelPathDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetRGroupKeyWords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharePg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sortclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SYNDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SynListDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TipsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transcoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeCtrlEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UDiskAuth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UploadShareFileList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UpLoadTorrent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCommDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="control\WBButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="webbrowser2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WM_Show_Dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pic\ICON\3dsmallbook.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\addtoorder.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\ADVCOMM.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\ADVDISABLE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\ADVFOCUS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\ADVSEL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\TipDialog\alert.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\Background\bg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\bitmap7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\bitmap8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\browse.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\TipDialog\btn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\buy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BMPLIST\cfglist.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\comments.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\comments_false.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\dl.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\dl_h.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\FRAME\down.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BMPLIST\download.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\dy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\dy_check.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\dy_empty.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\email_r.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BMPLIST\filelist.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\group1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\help.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\helpcheck.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\helpDis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\helpsel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_baidu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_baiduE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_bdwenku.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_computer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_course.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_dangdang.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_du8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_duxiu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_ebook.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_fanshu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_google.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\img_huntmine.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_huntmine.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_istation.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_local.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_makebook.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_mobile.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_opencourse.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_pdfpaper.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_readman.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_searchlogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_share.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_sina.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_sinaiask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_td.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_type.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_verycd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SEARCH\img_zcom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\FRAME\left.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\ReadControlBar\leftbtn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\liulan1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\Logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\makewolf.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\ReadControlBar\menuBtn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\TipDialog\msg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon\msg.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\order.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\orderCheck.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\orderDis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\orderSel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\TipDialog\qst.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\rd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Readings.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ReadingsDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\refresh.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\refreshCheck.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\refreshDis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\refreshSel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\regist.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\researchter.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\FRAME\right.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\ReadControlBar\rightbtn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\search.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\searchCheck.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\searchDis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\searchSel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SHADOW\shadow1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SHADOW\shadow2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SHADOW\shadow3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SHADOW\shadow4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\SHADOW\shadow5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\shouqi.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\star.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\star.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\star_blank.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\stopsearch.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\stopsearchchk.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\stopsearchdis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\stopsearchsel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\stroy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\stroyCheck.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\stroyDis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\stroySel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\syn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\syn_check.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\syn_empty.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\synCheck.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\synDis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\synSel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\TipDialog\tip.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BMPLIST\tree.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\trymakewolf.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\FRAME\up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon\WolfND.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\BUTTON\zhankai.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\ReadControlBar\zoombtn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\zst.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\打开文件1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\打开文件1_c.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\打开文件1_d.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\打开文件1_s.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\找回密码.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\用户注册.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\用户登录.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\逛逛.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\闭合文件夹2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\闭合文件夹2_c.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\闭合文件夹2_d.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic\MAINBAR\闭合文件夹2_s.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\cursor.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\cursor2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\DRAGGING.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\ICR_HAND.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\NODRAGGI.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Readings.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\WolfND.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="msxml.dll" />
+    <None Include="lib\image\vssver.scc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\image\cximage.lib" />
+    <Library Include="lib\image\Jpeg.lib" />
+    <Library Include="lib\image\ParseFile.lib" />
+    <Library Include="lib\image\png.lib" />
+    <Library Include="lib\image\Tiff.lib" />
+    <Library Include="lib\image\zlib.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\Dang.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

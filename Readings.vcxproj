@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D593322B-3612-495C-AB79-1579BE77EC1C}</ProjectGuid>
+    <RootNamespace>Readings</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/Readings.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/Readings.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;ws2_32.lib;winmm.lib;setupapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>e:\hanlin\Readings4-3\Readings.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/Readings.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>.\Debug/Readings.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/Readings.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/Readings.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/Readings.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;ws2_32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>E:\Hanlin\Readings4-3\Readings_r.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release/Readings_r.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>.\Release/Readings_r.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/Readings.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddNetBookDlg.cpp" />
+    <ClCompile Include="AddUniversity.cpp" />
+    <ClCompile Include="control\AdvancedBitmapButton.cpp" />
+    <ClCompile Include="AgreeMail.cpp" />
+    <ClCompile Include="AGREEMAILDIALOG.cpp" />
+    <ClCompile Include="control\AutoFont.cpp" />
+    <ClCompile Include="AutoLoginDlg.cpp" />
+    <ClCompile Include="BackupDialog.cpp" />
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="BTOperation.cpp" />
+    <ClCompile Include="ChargeMail.cpp" />
+    <ClCompile Include="CHARGETMAILDIALOG.cpp" />
+    <ClCompile Include="CommLog.cpp" />
+    <ClCompile Include="CommLogDlg.cpp" />
+    <ClCompile Include="CommView.cpp" />
+    <ClCompile Include="ConfigDlg.cpp" />
+    <ClCompile Include="CreateReGroup.cpp" />
+    <ClCompile Include="CreateRGDlg.cpp" />
+    <ClCompile Include="DataListCtrl.cpp" />
+    <ClCompile Include="Decrypt.cpp" />
+    <ClCompile Include="DialogComments.cpp" />
+    <ClCompile Include="DialogMail.cpp" />
+    <ClCompile Include="DialogSMS.cpp" />
+    <ClCompile Include="DigChinaBook.cpp" />
+    <ClCompile Include="DigHotkey.cpp" />
+    <ClCompile Include="DlgAddStudyBuilding.cpp" />
+    <ClCompile Include="DownloadCenterTreeView.cpp" />
+    <ClCompile Include="DownLoadListView.cpp" />
+    <ClCompile Include="Drawers.cpp" />
+    <ClCompile Include="DrawerView.cpp" />
+    <ClCompile Include="EMailADO.cpp" />
+    <ClCompile Include="ErrorExitDlg.cpp" />
+    <ClCompile Include="FavorPg.cpp" />
+    <ClCompile Include="FileCollect.cpp" />
+    <ClCompile Include="FileFindEx.cpp" />
+    <ClCompile Include="ForJmail.cpp" />
+    <ClCompile Include="FormatWaterMark.cpp" />
+    <ClCompile Include="GetUserInfo.cpp" />
+    <ClCompile Include="GFXGROUPEDIT.CPP" />
+    <ClCompile Include="GFXOUTBARCTRL.CPP" />
+    <ClCompile Include="GFXPOPUPMENU.CPP" />
+    <ClCompile Include="GuidTreeView.cpp" />
+    <ClCompile Include="HotKeyListView.cpp" />
+    <ClCompile Include="HotKeyTree.cpp" />
+    <ClCompile Include="HotKeyView.cpp" />
+    <ClCompile Include="HttpDownLoadDlg.cpp" />
+    <ClCompile Include="HttpSocket.cpp" />
+    <ClCompile Include="HttpUtl.cpp" />
+    <ClCompile Include="idea.cpp" />
+    <ClCompile Include="InputDlg.cpp" />
+    <ClCompile Include="MailHistory.cpp" />
+    <ClCompile Include="MainBar.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MainList\MainListDataFather.cpp" />
+    <ClCompile Include="MainList\MainListRecentlyRead.cpp" />
+    <ClCompile Include="MainListView.cpp" />
+    <ClCompile Include="ManBooks.cpp" />
+    <ClCompile Include="MidRowSplitWnd.cpp" />
+    <ClCompile Include="NameTabCtrl.cpp" />
+    <ClCompile Include="NormalPg.cpp" />
+    <ClCompile Include="OrderCenterView.cpp" />
+    <ClCompile Include="ParseTxtFile.cpp" />
+    <ClCompile Include="ParseWolFile.cpp" />
+    <ClCompile Include="PathDialog.cpp" />
+    <ClCompile Include="PersonInfo.cpp" />
+    <ClCompile Include="PubInfo.cpp" />
+    <ClCompile Include="Push.cpp" />
+    <ClCompile Include="PushAdv.cpp" />
+    <ClCompile Include="PushPg.cpp" />
+    <ClCompile Include="ReadControlBar.cpp" />
+    <ClCompile Include="ReadDlg.cpp" />
+    <ClCompile Include="Readings.cpp" />
+    <ClCompile Include="ReadingsHeart.cpp" />
+    <ClCompile Include="ReadingsView.cpp" />
+    <ClCompile Include="ReadOnLine.cpp" />
+    <ClCompile Include="RECVMAILDIALOG.cpp" />
+    <ClCompile Include="RefuseMail.cpp" />
+    <ClCompile Include="REFUSETMAILDIALOG.cpp" />
+    <ClCompile Include="RegsterDialog.cpp" />
+    <ClCompile Include="RequestMail.cpp" />
+    <ClCompile Include="REQUESTMAILDIALOG.cpp" />
+    <ClCompile Include="ResourceClassify.cpp" />
+    <ClCompile Include="RowSplitWnd.cpp" />
+    <ClCompile Include="SelPathDlg.cpp" />
+    <ClCompile Include="ServerPg.cpp" />
+    <ClCompile Include="SetRGroupKeyWords.cpp" />
+    <ClCompile Include="SharePg.cpp" />
+    <ClCompile Include="ShowDialog.cpp" />
+    <ClCompile Include="ShowView.cpp" />
+    <ClCompile Include="sms.cpp" />
+    <ClCompile Include="sortclass.cpp" />
+    <ClCompile Include="SplitWnd.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SYNDialog.cpp" />
+    <ClCompile Include="SynListDlg.cpp" />
+    <ClCompile Include="TipsDialog.cpp" />
+    <ClCompile Include="Transcoding.cpp" />
+    <ClCompile Include="TreeCtrlEx.cpp" />
+    <ClCompile Include="UDiskAuth.cpp" />
+    <ClCompile Include="UploadShareFileList.cpp" />
+    <ClCompile Include="UpLoadTorrent.cpp" />
+    <ClCompile Include="UserCommDlg.cpp" />
+    <ClCompile Include="UserInfoDlg.cpp" />
+    <ClCompile Include="UserListCtrl.cpp" />
+    <ClCompile Include="control\WBButton.cpp" />
+    <ClCompile Include="webbrowser2.cpp" />
+    <ClCompile Include="WM_Show_Dialog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Readings.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddNetBookDlg.h" />
+    <ClInclude Include="AddUniversity.h" />
+    <ClInclude Include="control\AdvancedBitmapButton.h" />
+    <ClInclude Include="AgreeMail.h" />
+    <ClInclude Include="AGREEMAILDIALOG.h" />
+    <ClInclude Include="control\AutoFont.h" />
+    <ClInclude Include="AutoLoginDlg.h" />
+    <ClInclude Include="BackupDialog.h" />
+    <ClInclude Include="ChargeMail.h" />
+    <ClInclude Include="CHARGETMAILDIALOG.h" />
+    <ClInclude Include="CommLog.h" />
+    <ClInclude Include="CommLogDlg.h" />
+    <ClInclude Include="CommView.h" />
+    <ClInclude Include="ConfigDlg.h" />
+    <ClInclude Include="CreateReGroup.h" />
+    <ClInclude Include="CreateRGDlg.h" />
+    <ClInclude Include="DataListCtrl.h" />
+    <ClInclude Include="DialogComments.h" />
+    <ClInclude Include="DialogMail.h" />
+    <ClInclude Include="DialogSMS.h" />
+    <ClInclude Include="DigChinaBook.h" />
+    <ClInclude Include="DigHotkey.h" />
+    <ClInclude Include="DlgAddStudyBuilding.h" />
+    <ClInclude Include="DownloadCenterTreeView.h" />
+    <ClInclude Include="DownLoadListView.h" />
+    <ClInclude Include="Drawers.h" />
+    <ClInclude Include="DrawerView.h" />
+    <ClInclude Include="EMailADO.h" />
+    <ClInclude Include="ErrorExitDlg.h" />
+    <ClInclude Include="FavorPg.h" />
+    <ClInclude Include="FileCollect.h" />
+    <ClInclude Include="FileFindEx.h" />
+    <ClInclude Include="ForJmail.h" />
+    <ClInclude Include="FormarWaterMark.h" />
+    <ClInclude Include="GetUserInfo.h" />
+    <ClInclude Include="GFXGROUPEDIT.H" />
+    <ClInclude Include="GFXOUTBARCTRL.H" />
+    <ClInclude Include="GFXPOPUPMENU.H" />
+    <ClInclude Include="GuidTreeView.h" />
+    <ClInclude Include="HotKeyListView.h" />
+    <ClInclude Include="HotKeyTree.h" />
+    <ClInclude Include="HotKeyView.h" />
+    <ClInclude Include="HttpDownLoadDlg.h" />
+    <ClInclude Include="HttpSocket.h" />
+    <ClInclude Include="HttpUtl.h" />
+    <ClInclude Include="InputDlg.h" />
+    <ClInclude Include="Mail.h" />
+    <ClInclude Include="MailHistory.h" />
+    <ClInclude Include="MainBar.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MainList\MainListDataFather.h" />
+    <ClInclude Include="MainList\MainListRecentlyRead.h" />
+    <ClInclude Include="MainListView.h" />
+    <ClInclude Include="ManBooks.h" />
+    <ClInclude Include="MidRowSplitWnd.h" />
+    <ClInclude Include="NameTabCtrl.h" />
+    <ClInclude Include="NormalPg.h" />
+    <ClInclude Include="OrderCenterView.h" />
+    <ClInclude Include="ParseTxtFile.h" />
+    <ClInclude Include="ParseWolFile.h" />
+    <ClInclude Include="PathDialog.h" />
+    <ClInclude Include="PersonInfo.h" />
+    <ClInclude Include="PubInfo.h" />
+    <ClInclude Include="Push.h" />
+    <ClInclude Include="PushAdv.h" />
+    <ClInclude Include="PushPg.h" />
+    <ClInclude Include="ReadControlBar.h" />
+    <ClInclude Include="ReadDlg.h" />
+    <ClInclude Include="Readings.h" />
+    <ClInclude Include="ReadingsHeart.h" />
+    <ClInclude Include="ReadingsView.h" />
+    <ClInclude Include="ReadOnLine.h" />
+    <ClInclude Include="RECVMAILDIALOG.h" />
+    <ClInclude Include="RefuseMail.h" />
+    <ClInclude Include="REFUSETMAILDIALOG.h" />
+    <ClInclude Include="RegsterDialog.h" />
+    <ClInclude Include="RequestMail.h" />
+    <ClInclude Include="REQUESTMAILDIALOG.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceClassify.h" />
+    <ClInclude Include="RowSplitWnd.h" />
+    <ClInclude Include="SelPathDlg.h" />
+    <ClInclude Include="ServerPg.h" />
+    <ClInclude Include="SetRGroupKeyWords.h" />
+    <ClInclude Include="SharePg.h" />
+    <ClInclude Include="ShowDialog.h" />
+    <ClInclude Include="ShowView.h" />
+    <ClInclude Include="sms.h" />
+    <ClInclude Include="sortclass.h" />
+    <ClInclude Include="SplitWnd.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Struct.h" />
+    <ClInclude Include="SYNDialog.h" />
+    <ClInclude Include="SynListDlg.h" />
+    <ClInclude Include="TipsDialog.h" />
+    <ClInclude Include="Transcoding.h" />
+    <ClInclude Include="TreeCtrlEx.h" />
+    <ClInclude Include="UDiskAuth.h" />
+    <ClInclude Include="UploadShareFileList.h" />
+    <ClInclude Include="UpLoadTorrent.h" />
+    <ClInclude Include="usb.h" />
+    <ClInclude Include="UserCommDlg.h" />
+    <ClInclude Include="UserInfoDlg.h" />
+    <ClInclude Include="UserListCtrl.h" />
+    <ClInclude Include="variable.h" />
+    <ClInclude Include="control\WBButton.h" />
+    <ClInclude Include="webbrowser2.h" />
+    <ClInclude Include="WM_Show_Dialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pic\ICON\3dsmallbook.bmp" />
+    <Image Include="pic\BUTTON\addtoorder.bmp" />
+    <Image Include="pic\MAINBAR\ADVCOMM.bmp" />
+    <Image Include="pic\MAINBAR\ADVDISABLE.bmp" />
+    <Image Include="pic\MAINBAR\ADVFOCUS.bmp" />
+    <Image Include="pic\MAINBAR\ADVSEL.bmp" />
+    <Image Include="pic\TipDialog\alert.bmp" />
+    <Image Include="pic\Background\bg.bmp" />
+    <Image Include="pic\MAINBAR\bitmap1.bmp" />
+    <Image Include="pic\MAINBAR\bitmap7.bmp" />
+    <Image Include="pic\MAINBAR\bitmap8.bmp" />
+    <Image Include="pic\BUTTON\browse.bmp" />
+    <Image Include="pic\TipDialog\btn.bmp" />
+    <Image Include="pic\BUTTON\buy.bmp" />
+    <Image Include="pic\BMPLIST\cfglist.bmp" />
+    <Image Include="pic\BUTTON\comments.bmp" />
+    <Image Include="pic\BUTTON\comments_false.bmp" />
+    <Image Include="pic\BUTTON\dl.bmp" />
+    <Image Include="pic\MAINBAR\dl_h.bmp" />
+    <Image Include="pic\FRAME\down.bmp" />
+    <Image Include="pic\BMPLIST\download.bmp" />
+    <Image Include="pic\BUTTON\dy.bmp" />
+    <Image Include="pic\BUTTON\dy_check.bmp" />
+    <Image Include="pic\BUTTON\dy_empty.bmp" />
+    <Image Include="pic\BUTTON\email_r.bmp" />
+    <Image Include="pic\BMPLIST\filelist.bmp" />
+    <Image Include="pic\MAINBAR\group1.bmp" />
+    <Image Include="pic\MAINBAR\help.bmp" />
+    <Image Include="pic\MAINBAR\helpcheck.bmp" />
+    <Image Include="pic\MAINBAR\helpDis.bmp" />
+    <Image Include="pic\MAINBAR\helpsel.bmp" />
+    <Image Include="icon\icon1.ico" />
+    <Image Include="pic\SEARCH\img_baidu.bmp" />
+    <Image Include="pic\SEARCH\img_baiduE.bmp" />
+    <Image Include="pic\SEARCH\img_bdwenku.bmp" />
+    <Image Include="pic\SEARCH\img_computer.bmp" />
+    <Image Include="pic\SEARCH\img_course.bmp" />
+    <Image Include="pic\SEARCH\img_dangdang.bmp" />
+    <Image Include="pic\SEARCH\img_du8.bmp" />
+    <Image Include="pic\SEARCH\img_duxiu.bmp" />
+    <Image Include="pic\SEARCH\img_ebook.bmp" />
+    <Image Include="pic\SEARCH\img_fanshu.bmp" />
+    <Image Include="pic\SEARCH\img_google.bmp" />
+    <Image Include="pic\MAINBAR\img_huntmine.bmp" />
+    <Image Include="pic\SEARCH\img_huntmine.bmp" />
+    <Image Include="pic\SEARCH\img_istation.bmp" />
+    <Image Include="pic\SEARCH\img_local.bmp" />
+    <Image Include="pic\SEARCH\img_makebook.bmp" />
+    <Image Include="pic\SEARCH\img_mobile.bmp" />
+    <Image Include="pic\SEARCH\img_opencourse.bmp" />
+    <Image Include="pic\SEARCH\img_pdfpaper.bmp" />
+    <Image Include="pic\SEARCH\img_readman.bmp" />
+    <Image Include="pic\SEARCH\img_searchlogo.bmp" />
+    <Image Include="pic\SEARCH\img_share.bmp" />
+    <Image Include="pic\SEARCH\img_sina.bmp" />
+    <Image Include="pic\SEARCH\img_sinaiask.bmp" />
+    <Image Include="pic\SEARCH\img_td.bmp" />
+    <Image Include="pic\SEARCH\img_type.bmp" />
+    <Image Include="pic\SEARCH\img_verycd.bmp" />
+    <Image Include="pic\SEARCH\img_zcom.bmp" />
+    <Image Include="pic\FRAME\left.bmp" />
+    <Image Include="pic\ReadControlBar\leftbtn.bmp" />
+    <Image Include="pic\MAINBAR\liulan1.bmp" />
+    <Image Include="pic\Logo.bmp" />
+    <Image Include="pic\BUTTON\makewolf.bmp" />
+    <Image Include="pic\ReadControlBar\menuBtn.bmp" />
+    <Image Include="pic\TipDialog\msg.bmp" />
+    <Image Include="icon\msg.ico" />
+    <Image Include="pic\MAINBAR\order.bmp" />
+    <Image Include="pic\MAINBAR\orderCheck.bmp" />
+    <Image Include="pic\MAINBAR\orderDis.bmp" />
+    <Image Include="pic\MAINBAR\orderSel.bmp" />
+    <Image Include="pic\TipDialog\qst.bmp" />
+    <Image Include="pic\BUTTON\rd.bmp" />
+    <Image Include="res\Readings.ico" />
+    <Image Include="res\ReadingsDoc.ico" />
+    <Image Include="pic\MAINBAR\refresh.bmp" />
+    <Image Include="pic\MAINBAR\refreshCheck.bmp" />
+    <Image Include="pic\MAINBAR\refreshDis.bmp" />
+    <Image Include="pic\MAINBAR\refreshSel.bmp" />
+    <Image Include="pic\regist.bmp" />
+    <Image Include="pic\MAINBAR\researchter.bmp" />
+    <Image Include="pic\FRAME\right.bmp" />
+    <Image Include="pic\ReadControlBar\rightbtn.bmp" />
+    <Image Include="pic\MAINBAR\search.bmp" />
+    <Image Include="pic\MAINBAR\searchCheck.bmp" />
+    <Image Include="pic\MAINBAR\searchDis.bmp" />
+    <Image Include="pic\MAINBAR\searchSel.bmp" />
+    <Image Include="pic\SHADOW\shadow1.bmp" />
+    <Image Include="pic\SHADOW\shadow2.bmp" />
+    <Image Include="pic\SHADOW\shadow3.bmp" />
+    <Image Include="pic\SHADOW\shadow4.bmp" />
+    <Image Include="pic\SHADOW\shadow5.bmp" />
+    <Image Include="pic\BUTTON\shouqi.bmp" />
+    <Image Include="pic\MAINBAR\star.bmp" />
+    <Image Include="pic\BUTTON\star.bmp" />
+    <Image Include="pic\MAINBAR\star_blank.bmp" />
+    <Image Include="pic\MAINBAR\stopsearch.bmp" />
+    <Image Include="pic\MAINBAR\stopsearchchk.bmp" />
+    <Image Include="pic\MAINBAR\stopsearchdis.bmp" />
+    <Image Include="pic\MAINBAR\stopsearchsel.bmp" />
+    <Image Include="pic\MAINBAR\stroy.bmp" />
+    <Image Include="pic\MAINBAR\stroyCheck.bmp" />
+    <Image Include="pic\MAINBAR\stroyDis.bmp" />
+    <Image Include="pic\MAINBAR\stroySel.bmp" />
+    <Image Include="pic\MAINBAR\syn.bmp" />
+    <Image Include="pic\BUTTON\syn_check.bmp" />
+    <Image Include="pic\BUTTON\syn_empty.bmp" />
+    <Image Include="pic\MAINBAR\synCheck.bmp" />
+    <Image Include="pic\MAINBAR\synDis.bmp" />
+    <Image Include="pic\MAINBAR\synSel.bmp" />
+    <Image Include="pic\TipDialog\tip.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="pic\BMPLIST\tree.bmp" />
+    <Image Include="pic\BUTTON\trymakewolf.bmp" />
+    <Image Include="pic\FRAME\up.bmp" />
+    <Image Include="icon\WolfND.ico" />
+    <Image Include="pic\BUTTON\zhankai.bmp" />
+    <Image Include="pic\ReadControlBar\zoombtn.bmp" />
+    <Image Include="pic\MAINBAR\zst.bmp" />
+    <Image Include="pic\MAINBAR\打开文件1.bmp" />
+    <Image Include="pic\MAINBAR\打开文件1_c.bmp" />
+    <Image Include="pic\MAINBAR\打开文件1_d.bmp" />
+    <Image Include="pic\MAINBAR\打开文件1_s.bmp" />
+    <Image Include="pic\找回密码.BMP" />
+    <Image Include="pic\用户注册.bmp" />
+    <Image Include="pic\用户登录.bmp" />
+    <Image Include="pic\逛逛.bmp" />
+    <Image Include="pic\MAINBAR\闭合文件夹2.bmp" />
+    <Image Include="pic\MAINBAR\闭合文件夹2_c.bmp" />
+    <Image Include="pic\MAINBAR\闭合文件夹2_d.bmp" />
+    <Image Include="pic\MAINBAR\闭合文件夹2_s.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\cursor.cur" />
+    <None Include="icon\cursor1.cur" />
+    <None Include="icon\cursor2.cur" />
+    <None Include="icon\DRAGGING.CUR" />
+    <None Include="icon\ICR_HAND.CUR" />
+    <None Include="icon\NODRAGGI.CUR" />
+    <None Include="res\Readings.rc2" />
+    <None Include="icon\WolfND.rgs" />
+    <None Include="msxml.dll" />
+    <None Include="lib\image\vssver.scc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\image\cximage.lib" />
+    <Library Include="lib\image\Jpeg.lib" />
+    <Library Include="lib\image\ParseFile.lib" />
+    <Library Include="lib\image\png.lib" />
+    <Library Include="lib\image\Tiff.lib" />
+    <Library Include="lib\image\zlib.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\Dang.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Readings.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
